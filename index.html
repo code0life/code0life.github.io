@@ -5,7 +5,8 @@
     <title>Добро пожаловать, путник!</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="wrapper">
@@ -16,28 +17,119 @@
                 </a>
                 <div class="contacts">
                     <a href="tel:88000039210" class="contacts__phone">8 (800) 00-392-10</a>
+                    <div class="contacts__description">График работы</div>
                 </div>
-                <div class="contacts__description">График работы</div>
             </div>
         </div>
-        <div class="content">
-            <div class="menu">
-                <ul class="mainmenu">
-                    <li class="mainmenu__ithem">
-                        <a href="#" class="mainmenu__ithem-element">Главная</a>
-                    </li>
-                    <li class="mainmenu__ithem">
-                        <a href="#" class="mainmenu__ithem-element">Отзывы</a>
-                    </li>
-                    <li class="mainmenu__ithem">
-                        <a href="#" class="mainmenu__ithem-element">Тарифы</a>
-                    </li>
-                </ul>
+        <div class="content"> 
+            <div class="container">
+                <div class="content__bigimage"></div>
+                <div class="menu">
+                    <ul class="mainmenu">
+                        <li class="mainmenu__item">
+                            <a href="#" class="mainmenu__item-element">Главная</a>
+                        </li>
+                        <li class="mainmenu__item">
+                            <a href="#" class="mainmenu__item-element">Отзывы</a>
+                        </li>
+                        <li class="mainmenu__item">
+                            <a href="#" class="mainmenu__item-element">Тарифы</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content__features">
+                    <div class="content__features-title">Особенности</div>
+                    <div class="content__features-body">
+                        <ul class="content__features-list">
+                            <li class="content__features-item">
+                                <div class="content__features-image">
+                                    <img src="/img/img2.png" alt="item1_image">
+                                </div>
+                                <div class="content__features-title">Уникальность</div>
+                                <div class="content__features-body">
+                                    Создан для вашего комфортного отдыха
+                                    <ul class="content__features-body-list">
+                                        <li>Кофе/чай</li>
+                                        <li>Шкаф (5 кг)</li>
+                                        <li>Рабочее место</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="content__features-item">
+                                <div class="content__features-image">
+                                    <img src="/img/img2.png" alt="item1_image">
+                                </div>
+                                <div class="content__features-title">Премиум-класс</div>
+                                <div class="content__features-body">
+                                    Для любителей хороших впечатлений
+                                    <ul class="content__features-body-list">
+                                        <li>Обед+кофе</li>
+                                        <li>Шкаф (10 кг)</li>
+                                        <li>Детское кресло</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="content__features-item">
+                                <div class="content__features-image">
+                                    <img src="/img/img2.png" alt="item1_image">
+                                </div>
+                                <div class="content__features-title">Лакшери-стулья</div>
+                                <div class="content__features-body">
+                                    Все самое лучшее и незабываемое
+                                    <ul class="content__features-body-list">
+                                        <li>Джакузи</li>
+                                        <li>Шкаф (15 кг)</li>
+                                        <li>Табуретка</li>
+                                    </ul>
+                                </div>
+                            </li>
+        
+                        </ul>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="news__title">Последние новости</div>
+                    <ul class="news__list">
+                        <li class="news__list-item">
+                            <div class="news__body">
+                                <div class="news__body-avatar">
+                                    <img src="/img/img1.jpg" alt="ava_news" class="news__body-avatar-pic">
+                                </div>
+                                <div class="news__body-text">
+                                    <div class="news__body-text-date">12.10.2016</div>
+                                    <div class="news__body-text-title">Чёрная дыра скидок!</div>
+                                    <div class="news__body-text-description">Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета юудет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.</div>
+                                </div>
+                            </div>   
+                        </li>
+                        <li class="news__list-item">
+                            <div class="news__body">
+                                <div class="news__body-avatar">
+                                    <img src="/img/img1.jpg" alt="ava_news" class="news__body-avatar-pic">
+                                </div>
+                                <div class="news__body-text">
+                                    <div class="news__body-text-date">01.02.2016</div>
+                                    <div class="news__body-text-title">Чёрная дыра скидок!</div>
+                                    <div class="news__body-text-description">Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета юудет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.</div>
+                                </div>
+                            </div>   
+                        </li>
+                        <li class="news__list-item">
+                            <div class="news__body">
+                                <div class="news__body-avatar">
+                                    <img src="/img/img1.jpg" alt="ava_news" class="news__body-avatar-pic">
+                                </div>
+                                <div class="news__body-text">
+                                    <div class="news__body-text-date">22.12.2016</div>
+                                    <div class="news__body-text-title">Чёрная дыра скидок!</div>
+                                    <div class="news__body-text-description">Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета юудет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.</div>
+                                </div>
+                            </div>   
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="main">
-                <div class="main__title">Особенности</div>
-            </div>
-        </div>
+        </div>    
     </div>
 </body>
 </html>
