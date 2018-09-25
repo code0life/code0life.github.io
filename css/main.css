@@ -40,6 +40,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.maincontent {
+  margin-top: 68px;
+}
+
 .container {
     margin: 0 auto;
     width: 1060px;
@@ -107,6 +111,10 @@ body {
   overflow: hidden;
 }
 
+.content__features-body {
+  padding-top: 68px;
+}
+
 .content__features-title {
   font-size: 49px;
   font-weight: bold;
@@ -123,9 +131,34 @@ body {
   background-image:url("../img/icon/elipse.png"); 
   width: 68px;
   height: 68px;
-  text-align: center;
   margin: 0 auto;
 } 
+
+.content__item-image {
+  display: block; 
+  padding-top:25%;
+} 
+
+.content__item-title {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: 'GothaPro-Bold';
+  padding-top: 34px;
+} 
+
+.content__item-body {
+  padding-top: 28px;
+} 
+
+.content__item-body-list {
+  list-style: auto;
+}
+
+.content__item-body-list > .content__list-item {
+  list-style: disc;
+  color:#cc3366;
+}
 
 .news__body-avatar {
   display: inline-block;
