@@ -40,7 +40,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.maincontent {
+.main-content {
   margin-top: 68px;
 }
 
@@ -115,16 +115,26 @@ body {
   padding-top: 68px;
 }
 
+.content__features-item {
+  display: inline-block; 
+  width: 250px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'GothamPro-Light';
+  padding-top: 34px;
+  color: #221f1f;
+}
+
 .content__features-title {
   font-size: 49px;
   font-weight: bold;
   font-family: 'GothaPro-Bold';
 }
 
-.content__features-item {
-  display: inline-block; 
-  width: 250px;
-  text-align: center;
+.content__item-body {
+  text-align: left;
+  padding-left: 30px;
 }
 
 .content__item-background {
@@ -149,6 +159,7 @@ body {
 
 .content__item-body {
   padding-top: 28px;
+  line-height: 2.0;
 } 
 
 .content__item-body-list {
@@ -158,6 +169,27 @@ body {
 .content__item-body-list > .content__list-item {
   list-style: disc;
   color:#cc3366;
+}
+
+.content__list-item > span {
+
+  color:black;
+}
+   p {
+    text-indent: 10px; /* Отступ первой строки в пикселах */
+   }
+.news {
+  padding-top: 68px;
+}
+
+.news__list {
+  padding-top: 68px;
+}
+
+.news__title {
+  font-size: 49px;
+  font-weight: bold;
+  font-family: 'GothaPro-Bold';
 }
 
 .news__body-avatar {
